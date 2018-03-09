@@ -1,0 +1,13 @@
+[user]
+	email = kim.vanrenterghem@gmail.com
+	name = Kim
+[https]
+               proxy = http://127.0.0.1:3129
+               # Needed to avoid "SSl certificate problem"
+               sslVerify = false
+#[http]
+#	proxy = http://prjafws01-wcg.jetair.be:8080
+               # Needed to avoid "SSl certificate problem"
+#               sslVerify = false
+[alias]
+    hist = log --pretty=format:\"%h %ai [%an] %s\" --graph 
